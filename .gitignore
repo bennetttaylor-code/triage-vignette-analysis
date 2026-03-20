@@ -6,3 +6,5 @@ __pycache__/
 # Raw workbooks are expected locally but not committed by default.
 data/raw/*.xlsx
 data/raw/*.xls
+
+!data/raw/Reportable Analysis (2).xlsx
