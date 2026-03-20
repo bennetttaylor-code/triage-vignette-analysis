@@ -7,10 +7,10 @@ from statsmodels.stats.multitest import multipletests
 from statsmodels.stats.proportion import proportion_confint
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_SOURCE_PATH = REPO_ROOT / "data" / "raw" / "Reportable Analysis (2).xlsx"
 FALLBACK_SOURCE_PATH = Path("/Users/bennetttaylor/Downloads/Reportable Analysis (2).xlsx")
-OUTPUT_DIR = Path(__file__).resolve().parent / "results"
+OUTPUT_DIR = Path(__file__).resolve().parents[1] / "results"
 
 ORDER = {"A": 1, "B": 2, "C": 3, "D": 4}
 MODELS = [
