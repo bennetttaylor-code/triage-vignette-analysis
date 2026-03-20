@@ -17,7 +17,7 @@ triage-analysis/
 ├── .gitignore
 ├── requirements.txt
 ├── analyses
-│   └── reportable_analysis_multiturn/
+│   └── reportable_analysis/
 ├── data/
 │   ├── raw/
 │   └── processed/
