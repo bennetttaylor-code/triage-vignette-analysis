@@ -1,7 +1,6 @@
-cat > /Users/bennetttaylor/Documents/Playground/triage-analysis/analyses/reportable_analysis_multiturn/README.md <<'EOF'
 # Reportable Analysis Multiturn
 
-This folder contains a reproducible analysis of GPT triage performance for 39 clinical vignettes from `Reportable Analysis (2).xlsx`.
+This folder contains a reproducible analysis of GPT triage performance for 39 clinical vignettes from `Reportable Analysis (2).xlsx`. 
 
 ## Files
 
